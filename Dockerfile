@@ -6,4 +6,4 @@ ENTRYPOINT ["java", "-cp", "/cp/Sugar.jar:/cp/args4j-2.0.23.jar:/cp/jbzip2-0.9.1
             "org.csml.tommo.sugar.SugarApplication"]
 CMD ["-h"]
 
-RUN apk add --update --no-cache fontconfig ttf-dejavu
+RUN apk add --update --no-cache fontconfig ttf-dejavu libxext libxrender libxtst libxi
